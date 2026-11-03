@@ -33,4 +33,6 @@ while not raylib.WindowShouldClose
     raylib.EndDrawing
     yield
 end while
+
+raylib.UnloadModel terrainModel
 raylib.CloseWindow
